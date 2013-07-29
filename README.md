@@ -27,7 +27,7 @@ Code:
 
         $anonima();
 
-        $anonima("@richistron");
+        $anonima("@phpmx");
 ```
 
 Run :
