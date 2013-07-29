@@ -127,6 +127,12 @@ $class = new Sample3;
 $class->hello(function(){
 	echo "hello @phpmx \r\n";
 });
+
+$funct = function(){
+	echo "hello @phpmx \r\n";
+};
+
+$class->hello($funct);
 ```
 
 Run :
