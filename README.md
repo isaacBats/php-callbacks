@@ -97,7 +97,7 @@ Run :
 
 
 ```
-php sample1.php
+php sample2.php
 ```
 
 output:
