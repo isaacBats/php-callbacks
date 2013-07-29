@@ -45,7 +45,7 @@ Hello @phpmx
 ```
 
 Regresando un funcion anónima (sample2.php)
-=============================
+===========================================
 
 Creamos una clase que regresa un función anónima
 
@@ -98,6 +98,42 @@ Run :
 
 ```
 php sample2.php
+```
+
+output:
+
+```
+Hello world
+Hello @phpmx
+```
+
+Callback como parametro
+=======================
+
+Al mero estilo de javascript podemos mandar funciones anónimas como parametro
+
+```php
+<?php
+
+class Sample3 {
+	public function hello($callback){
+		echo  "hello world \r\n";
+		$callback();
+	}
+}
+
+$class = new Sample3;
+
+$class->hello(function(){
+	echo "hello @phpmx \r\n";
+});
+```
+
+Run :
+
+
+```
+php sample3.php
 ```
 
 output:
