@@ -145,6 +145,8 @@ php sample3.php
 output:
 
 ```
-Hello world
-Hello @phpmx
+hello world 
+hello @phpmx 
+hello world 
+hello @phpmx
 ```
